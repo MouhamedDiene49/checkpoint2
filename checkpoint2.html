@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mon Nom - Développeur Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À Propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue sur mon Portfolio</h2>
+        <p>Je suis passionné par le développement web et voici quelques-uns de mes projets.</p>
+    </section>
+
+    <section id="a-propos">
+        <h2>À Propos de Moi</h2>
+        <p>Je m'appelle Mouhamed Diene. Je suis un développeur full stack JS passionné par...</p>
+        <audio controls>
+            <source src="video audio/projet 1.MP3" type="audio/mp3">
+            Votre navigateur ne prend pas en charge la balise audio.
+        </audio>
+    </section>
+
+    <section id="travail">
+        <h2>Mes Projets</h2>
+        <article>
+            <h3>Projet 1</h3>
+            <p>Description du projet 1.</p>
+            <a href="video audio/photo_2023-12-28_12-50-53.jpg">En savoir plus</a>
+        </article>
+
+        <article>
+            <h3>Projet 2</h3>
+            <p>Description du projet 2.</p>
+            <a href="video audio/saoudiennoir.jpg">En savoir plus</a>
+        </article>
+    </section>
+
+    <section id="cv">
+        <h2>Mon CV</h2>
+        <form action="traitement-cv.php" method="post">
+            <label for="nom">Diene :</label>
+            <input type="text" id="nom" name="nom" required>
+    
+            <label for="prenom">Mouhamed :</label>
+            <input type="text" id="prenom" name="prenom" required>
+    
+            <label for="experience">devellopper full stack JS :</label>
+            <textarea id=mouhameddiene2020@gmail.com name="experience" rows="4" required></textarea>
+    
+            <label for="formation">certification :</label>
+            <textarea id="formation" name="formation" rows="4" required></textarea>
+    
+            <label for="competences">devellopeur  :</label>
+            <input type="text" id="competences" name="competences" required>
+    
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="traitement-contact.php" method="post">
+          
+        <label for="email">mouhameddiene2020@gmail.com :</label>
+        <input type="email" id="email" name="email" style="width: 200px;" required>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mon Portfolio</p>
+    </footer>
+
+</body>
+
+</html>
