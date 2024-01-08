@@ -1,0 +1,21 @@
+nav ul {
+    display: inline;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .section {
+        padding: 20px;
+        border: 1px solid #001eff;
+        margin-bottom: 20px;
+    }
+    
+ 
